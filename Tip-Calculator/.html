@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tip calculator</title>
+		
+		<link rel="stylesheet" type="text/css" href="C:\Users\Admin\Desktop\New folder\css\normalize.css">
+		
+		<link rel="stylesheet" type="text/css" href="C:\Users\Admin\Desktop\New folder\css\calci.css">
+		
+	</head>
+	
+	
+	<body>
+
+		<div id="container">
+		<h1>TIP CALCULATOR</h1>
+			<div id="calculator">
+			
+				<form>
+					<label>
+						How much was your bill?<br>
+							₹. <input type="text" id="billAmount">
+					</label>
+					<label>
+						How was your service?<br>
+						<select id="serviceQuality">
+							<option disabled selected value="0">-- Choose an option-- </option>
+							
+							<option value="0.3">30% - Outstanding</option>
+							<option value="0.2">20% - Good</option>
+							<option value="0.15">15% - It was okay</option>
+							<option value="0.1">10% - Bad</option>
+							<option value="0.05">5% - Terrible</option>
+							
+						</select>
+					</label>
+
+					<label>
+					
+						How many people are sharing the bill?<br>
+						<input type="text" id="totalPeople">people
+					</label>
+					<button type="button" id="calculate">Calculate</button>
+				</form>	
+							
+				
+				
+			
+			
+			</div><!--calulator end-->
+			
+			<div id="totalTip">
+				<sup>₹</sup><span id="tip">0.00</span>
+				<small id="each">Each</small>
+			</div> <!--tip ends-->
+			
+		</div> <!-- container end -->
+		
+		
+		<script type="text/javascript" src="C:\Users\Admin\Desktop\New folder\javascript\script.js">
+		
+		</script>
+	</body>
+
+</html>
